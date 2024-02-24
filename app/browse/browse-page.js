@@ -1,6 +1,6 @@
-import { Application } from '@nativescript/core'
+import { Application } from '@nativescript/core'; 
 
-import { BrowseViewModel } from './browse-view-model'
+import { BrowseViewModel } from './browse-view-model';  //import the BrowseViewModel component
 
 export function onNavigatingTo(args) {
   const page = args.object

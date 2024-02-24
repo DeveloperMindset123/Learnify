@@ -13,3 +13,9 @@ export function AppRootViewModel() {
 
   return viewModel
 }
+
+/*
+* The purpose of app-root-view-model.js' file is to define the view model for the root component of a nativeScript application.
+* Function AppRootViewModel: a new viewModel object is created using the 'fromObject' function provided by the NativeScript core library. This view model initially contains a single property named 'selectedPage' which is a set of empty string.
+*/
+

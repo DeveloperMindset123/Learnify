@@ -12,6 +12,8 @@
 
     <GridLayout class="page__content">
         <Label class="page__content-icon far" text="&#xf1ea;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Page content goes here -->"></Label>
+        <Label class="page__content-placeholder" text="This is the browser page, search up curriculums as needed"></Label>
     </GridLayout>
 </Page>
+
+<!--This representing the frontend UI layout of the browse page-->

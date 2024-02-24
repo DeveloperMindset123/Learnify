@@ -1,19 +1,19 @@
 <nsDrawer:RadSideDrawer
   id="sideDrawer"
-  xmlns:nsDrawer="nativescript-ui-sidedrawer"
+  xmlns:nsDrawer="nativescript-ui-sidedrawer" 
   loaded="onLoaded"
   class="ns-statusbar-transparent"
->
-    <nsDrawer:RadSideDrawer.drawerTransition>
+>  <!--This represents the main container for the side drawer layout-->
+    <nsDrawer:RadSideDrawer.drawerTransition>   <!--SlideInOnTopTransition: is specified as the transition effect when the drawer is open or closed. This transition gives a slide-in animation effect to the drawer-->
         <nsDrawer:SlideInOnTopTransition />
     </nsDrawer:RadSideDrawer.drawerTransition>
 
-    <nsDrawer:RadSideDrawer.drawerContent>
+    <nsDrawer:RadSideDrawer.drawerContent>   <!--The content of the side drawer is defined within-->
         <GridLayout rows="auto, *" class="nt-drawer__content">
             <StackLayout class="nt-drawer__header">
                 <Image class="nt-drawer__header-image fas t-36" src="font://&#xf2bd;" />
                 <Label class="nt-drawer__header-brand" text="User Name" />
-                <Label class="nt-drawer__header-footnote" text="username@mail.com" />
+                <Label class="nt-drawer__header-footnote" text="username@gmail.com" /> <!--Placeholder username-->
             </StackLayout>
 
             <ScrollView row="1">
@@ -79,7 +79,12 @@
         </GridLayout>
     </nsDrawer:RadSideDrawer.drawerContent>
 
-    <nsDrawer:RadSideDrawer.mainContent>
-        <Frame defaultPage="home/home-page" />
+    <nsDrawer:RadSideDrawer.mainContent>  <!--The main content of the application is deifned within the <nsDrawer:RadSideDrawer.mainContent> element-->
+        <Frame defaultPage="home/home-page" />  <!--Specifies the default page ot be the home page-->
     </nsDrawer:RadSideDrawer.mainContent>
 </nsDrawer:RadSideDrawer>
+
+<!--Purpose of this file
+- The purpose of this file is to create a layout for a nativeScript application that includes a side drawer navigation menu. Here's a breakdwon of the key components:
+1. 
+-->

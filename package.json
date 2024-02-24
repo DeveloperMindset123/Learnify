@@ -10,6 +10,7 @@
     "rxjs": "~7.8.0"
   },
   "devDependencies": {
+    "@nativescript/ios": "8.6.3",
     "@nativescript/webpack": "~5.0.18"
   }
 }
